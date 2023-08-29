@@ -1,0 +1,44 @@
+:root{
+    --lightcolor:#2195F2;
+    --seclightcolor:#E4F2FD;
+    --tertlightcolor:#1564C0;
+    --darkcolor:#272829;
+    --secdarkcolor:#D8D9DA;
+    --tertdarkcolor:#61677A;
+}
+.main-body{
+    background-color: var(--lightcolor);
+    font-family: 'Cairo', sans-serif;
+    transition: all 0.3s;
+
+}
+.screen{
+    background-color: var(--seclightcolor);
+    transition: all 0.3s;
+}
+.darkmodebtn{
+    left: 5px;
+    top: 150px;
+    background-color: #D8D9DA;
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.3s all;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.darkmodebtn:hover{
+    background-color: black;
+    color: #D8D9DA;
+}
+.w-90{
+    width: 90%;
+}
+.numbtn{
+    background-color: var(--tertlightcolor);
+    cursor: pointer;
+    transition: all 0.3s;
+}
